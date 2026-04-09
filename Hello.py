@@ -1,6 +1,6 @@
+print("hello")
 print("Hello world")
 
-" " "
 ## prime or not
 num = int(input("Enter a number: "))
 
@@ -73,4 +73,3 @@ while fibo <= num:
     x = y
     y = fibo
     fibo = x + y
-" " "
