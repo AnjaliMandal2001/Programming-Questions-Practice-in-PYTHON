@@ -15,9 +15,6 @@ else:
     print("Not a prime number")
 
 
-## swapping
-- using temp
-- using a,b=b,a (tuple unpacking/ multiple assignment)
 
 ## factorial
 - num = int(input("Enter a number: "))
@@ -60,16 +57,3 @@ print("Reversed number =", rev)
 
 
 
-## fibonacci series
-
-
-num = int(input("Enter the terms: "))
-
-x, y = 0, 1
-fibo = x
-
-while fibo <= num:
-    print(fibo)
-    x = y
-    y = fibo
-    fibo = x + y
