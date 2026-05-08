@@ -18,3 +18,17 @@ Sum = 1 + 2 + 4 + 7 + 14 = 28 ✅
 So, 28 is also a perfect number
 '''
 
+num=int(input("Enter any number:"))
+org=num
+start=1
+answer=0
+
+while start<num:
+    if num%start==0:
+        answer=answer+start
+    start = start + 1
+
+if org==answer:
+    print(f"{org} is a Perfect number.")
+else:
+    print(f"{org} is not a Perfect number.")
