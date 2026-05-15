@@ -35,25 +35,7 @@ import math
 num = int(input("Enter a number: "))
 print("Factorial =", math.factorial(num))
 
-## reverse a number
-- normal
-num = int(input("Enter a number: "))
-rev = 0
 
-while num > 0:
-    digit = num % 10
-    rev = rev * 10 + digit
-    num = num // 10
-
-print("Reversed number =", rev)
-
-
--using string slicing
-num = input("Enter a number: ")
-
-rev = num[::-1]
-
-print("Reversed number =", rev)
 
 
 
