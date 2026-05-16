@@ -1,18 +1,19 @@
+from abc import ABC, abstractclassmethod
 
-class Construction:
-    student = "ankit"
+class Payment(ABC):
+    @abstractclassmethod
+    def pay(self,amount):
+        pass
 
-    def greet(self):
-        print("my name is something.")
+class UPI(Payment):
+    def pay(self,amount):
+        print(f"{amount} is paid by using")
 
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
+class Card(Payment):
+    def pay(self,amount):
+        print(f"{amount} is paid by using")
 
 
-obj = Construction('aman', 12)
 
-obj.greet()
-
-print(obj.name)
-print(obj.age)
+obj1=Card()
+obj1.pay(4500)
