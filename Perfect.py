@@ -1,5 +1,10 @@
 '''
-A perfect number is a number that is equal to the sum of its proper divisors (excluding the number itself).
+A perfect number is a number that is equal to the sum of its proper divisors (excluding the number
+itself).
+
+or
+
+If the sum of proper divisors is equal to the original number , it is called a perfect number.
 
 📌 Example: 6
 
